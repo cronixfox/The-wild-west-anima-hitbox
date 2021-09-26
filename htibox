@@ -1,0 +1,9 @@
+--[[
+Cards#8591
+]]
+for i, v in pairs(game.Workspace.WORKSPACE_Entities.Animals:GetChildren()) do
+if v.Name == "Bison" or v.Name == "Deer" or v.Name == "Bear" or v.Name == "Gator" then
+v.Body.Size = Vector3.new(30,30,30)
+v.Body.Transparency = 0.5
+end
+end
